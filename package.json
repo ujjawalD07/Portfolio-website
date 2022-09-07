@@ -1,8 +1,10 @@
 {
+  "homepage": "https://github.com/rbhatia46/React-Portfolio#readme",
   "name": "resume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "ityped": "^1.0.3",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
@@ -11,6 +13,8 @@
     "react-typed": "^1.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -35,6 +39,5 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rbhatia46/React-Portfolio/issues"
-  },
-  "homepage": "https://github.com/rbhatia46/React-Portfolio#readme"
+  }
 }
