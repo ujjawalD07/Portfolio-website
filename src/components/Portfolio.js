@@ -5,7 +5,7 @@ export default class Porfolio extends Component {
     return (
       <section id="portfolio">
       <div className="row">
-        <div className="twelve columns collapsed">
+       <div className="twelve columns collapsed">
           <h1>Check Out Some of My Works.</h1>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
@@ -13,17 +13,18 @@ export default class Porfolio extends Component {
               return(
                 <div className="columns portfolio-item">
                   <div className="item-wrap">
-                    <a href="#modal-01">
+                    <a href={item.url1} target="_blank">
                       <img src={`${item.imgurl}`} className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
-                          <h5>{item.name}</h5>
                           <p>{item.description}</p>
                         </div>
                       </div>
                     </a>
                   </div>
+                  <button type="button" className='portfolio-button'><a href={item.url1}>Code/Demo</a></button>
                 </div>
+                
               )
             })
           }

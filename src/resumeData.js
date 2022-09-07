@@ -1,44 +1,46 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "name": "Ujjawal Dwivedi",
+    "role": "Full stack Developer and Machine learning enthusiast",
+    "role1": "Full stack web developer",
+    "linkedinId":"https://www.linkedin.com/in/ujjawal-dwivedi-23b5ba212/",
+    "skypeid": "Ujjawald07",
+    "email": "ujjawal64ud@gmail.com",
+    "roleDescription": "I like dabbling in various parts of full stack development and like to learn about new technologies. I am a keen learner and always looking for new challenges to conquer them. I am also called the caffeine king, I turn coffee into websites!",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/ujjawal-dwivedi-23b5ba212/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/ujjawalD07",
           "className":"fa fa-github"
         },
         {
           "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
+          "url":"https://twitter.com/Ujjawald07",
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":"I am currently pursuing engineering in information technology. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them. In the last couple of years, I have worked with many senior developers and have improved and learnt a lot under their guidance. I am ready for new challenges.",
     "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "website":"",
+    "twitter":"Ujjawald07",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
+        "UniversityName":"KIET group of institutions",
+        "specialization":"Computer science engineering",
+        "MonthOfPassing":"July",
         "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "Achievements":"GitHub hackathon finalist"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Lucknow Public School",
+        "specialization":"Class 12th",
+        "MonthOfPassing":"March",
+        "YearOfPassing":"2019",
+        "Achievements":"100% score in computer science"
       }
     ],
     "work":[
@@ -57,7 +59,7 @@ let resumeData = {
         "Achievements":"Some Achievements"
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"",
     "skills":[
       {
         "skillname":"HTML5"
@@ -67,28 +69,53 @@ let resumeData = {
       },
       {
         "skillname":"Reactjs"
+      },
+      {
+        "skillname":"Expressjs"
+      },
+      {
+        "skillname":"mongoDB"
+      },
+      {
+        "skillname":"jquery"
+      },
+      {
+        "skillname":"javascript"
+      },
+      {
+        "skillname":"python"
+      },
+      {
+        "skillname":"nodejs"
+      },
+      {
+        "skillname":"EJS"
       }
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"",
+        "description":"Face recognition system using machine learning",
+        "imgurl":"images/portfolio/project1.png",
+        "url1":"https://github.com/ujjawalD07/Face-recognition-attendance-sysytem"
       },
       {
         "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "description":"CV-2.0 using basic html-css-js ",
+        "imgurl":"images/portfolio/project2.jpg",
+        "url1":"https://ujjawald07.github.io/CV/"
       },
       {
         "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "description":"Simon game using javascript",  
+        "imgurl":"images/portfolio/project3.jpg",
+        "url1":"https://github.com/ujjawalD07/Simon-game"
       },
       {
         "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "description":"Exam portal using react ---COMING SOON---",
+        "imgurl":"images/portfolio/project4.jpg",
+        "url1":"",
       }
     ],
     "testimonials":[
@@ -100,7 +127,8 @@ let resumeData = {
         "description":"This is a sample testimonial",
         "name":"Some technical guy"
       }
-    ]
+    ],
+  
   }
   
   export default resumeData
