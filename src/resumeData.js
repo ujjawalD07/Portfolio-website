@@ -102,7 +102,7 @@ let resumeData = {
       {
         "name":"project2",
         "description":"To-do list using MongoDB and EJS templating",
-        "imgurl":"images/portfolio/project2.jpg",
+        "imgurl":"images/project2.jpg",
         "url1":"https://github.com/ujjawalD07/To-do-list-using-MongoDB"
       },
       {
