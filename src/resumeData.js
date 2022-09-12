@@ -101,9 +101,9 @@ let resumeData = {
       },
       {
         "name":"project2",
-        "description":"CV-2.0 using basic html-css-js ",
+        "description":"To-do list using MongoDB and EJS templating",
         "imgurl":"images/portfolio/project2.jpg",
-        "url1":"https://ujjawald07.github.io/CV/"
+        "url1":"https://github.com/ujjawalD07/To-do-list-using-MongoDB"
       },
       {
         "name":"project3",
@@ -116,7 +116,13 @@ let resumeData = {
         "description":"Exam portal using react ---COMING SOON---",
         "imgurl":"images/portfolio/project4.jpg",
         "url1":"",
-      }
+      },
+      // {
+      //   "name":"project5",
+      //   "description":"To-do list using MongoDB and EJS templating",
+      //   "imgurl":"images/portfolio/project5.jpg",
+      //   "url1":"https://github.com/ujjawalD07/To-do-list-using-MongoDB",
+      // },
     ],
     "testimonials":[
       {
