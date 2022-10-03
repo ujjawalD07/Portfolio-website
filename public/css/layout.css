@@ -303,7 +303,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #E1FFEE;
+   background: white;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -347,7 +347,7 @@ ul#nav li.current a {
 .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   border-bottom: 1px solid #E8E8E8;
+   /* border-bottom: 1px solid #E8E8E8; */
 }
 
 #resume .info {
@@ -370,6 +370,13 @@ ul#nav li.current a {
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
+hr{
+   border: solid dimgray;
+    border-width: 2px 0 0;
+    clear: both;
+    margin: 11px 0 30px;
+    height: 0;
+}
 
 .bars {
    width: 95%;
@@ -575,7 +582,7 @@ ul#nav li.current a {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #E1FFEE;
+   background: white;
    /* padding-top: 90px; */
    padding-bottom: 60px;
    margin-top: -48px;
