@@ -66,7 +66,7 @@ const breakPoints = [
       { id:5, title:"Simon game",src:"images/portfolio/project5.jpg",
       description:"The famous simon game developed using JavaScript, HTML and CSS",
       href:"https://github.com/ujjawalD07/Simon-game"},
-      { id:6, title:"Static CV",src:"images/portfolio/project6.jpg",
+      { id:6, title:"Static CV",src:"images/project6.jpg",
       description:"This was my first CV website made using HTML and CSS",
       href:"https://ujjawald07.github.io/CV/"},
       // { id:7, title:"picture1",src:"images/portfolio/project1.png"},
