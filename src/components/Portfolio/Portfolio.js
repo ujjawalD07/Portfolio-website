@@ -55,7 +55,7 @@ const breakPoints = [
       description:"A dynamic web tutor for self defense, fitness and physiotherapy techniques, made using Python, ML, flask, Javascript",
       href:"https://github.com/ujjawalD07/Stores-api"},
       { id:2, title:"Stores API(back-end)",src:"images/portfolio/project1.png",
-      description:"This is an API for an inventory store developed using NodeJS, ExpressJS and mongoDB",
+      description:"This is an API for an inventory store developed using NodeJS, ExpressJS and mongoDB.",
       href:"https://github.com/ujjawalD07/Stores-api"},
       { id:3, title:"Docket(full-stack)",src:"images/project2.jpg",
       description:"Docket is a web application developed using EJS, NodeJS, ExpressJS, mongoDB",
